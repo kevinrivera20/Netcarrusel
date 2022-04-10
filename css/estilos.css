@@ -1,5 +1,5 @@
 :root {
-	--rojo: #E50914;
+	--rojo: red;
 	--fondo: #141414;
 }
 
@@ -52,7 +52,7 @@ header nav a.activo {
 	font-size: 16px;
 	min-height: 40.62em;
 	color: #fff;
-	background: linear-gradient(rgba(0, 0, 0, .50) 0%, rgba(0,0,0,.50) 100%), url(../img/backdrop.jpg);
+	background: linear-gradient(rgba(0, 0, 0, .50) 0%, rgba(0, 0, 0, .50) 100%), url(../img/backdrop.jpg);
 	background-position: center center;
 	background-size: cover;
 	margin-bottom: 3.12em;
@@ -80,7 +80,7 @@ header nav a.activo {
 }
 
 .pelicula-principal .boton {
-	background: rgba(0,0,0, 0.5);
+	background: rgba(0, 0, 0, 0.5);
 	border: none;
 	border-radius: 0.31em;
 	padding: 0.93em 1.87em;
@@ -99,6 +99,7 @@ header nav a.activo {
 .pelicula-principal .boton i {
 	margin-right: 1.25em;
 }
+
 
 /* ---- ----- ----- Contenedor Titulo y Controles ----- ----- ----- */
 .contenedor-titulo-controles {
@@ -142,7 +143,7 @@ header nav a.activo {
 .peliculas-recomendadas .contenedor-principal .flecha-derecha {
 	position: absolute;
 	border: none;
-	background: rgba(0,0,0,0.3);
+	background: rgba(0, 0, 0, 0.3);
 	font-size: 40px;
 	height: 50%;
 	top: calc(50% - 25%);
@@ -156,7 +157,7 @@ header nav a.activo {
 
 .peliculas-recomendadas .contenedor-principal .flecha-izquierda:hover,
 .peliculas-recomendadas .contenedor-principal .flecha-derecha:hover {
-	background: rgba(0,0,0, .9);
+	background: rgba(0, 0, 0, .9);
 }
 
 .peliculas-recomendadas .contenedor-principal .flecha-izquierda {
@@ -183,7 +184,7 @@ header nav a.activo {
 .peliculas-recomendadas .contenedor-carousel .carousel .pelicula {
 	min-width: 20%;
 	transition: .3s ease all;
-	box-shadow: 5px 5px 10px rgba(0,0,0, .3);
+	box-shadow: 5px 5px 10px rgba(0, 0, 0, .3);
 }
 
 .peliculas-recomendadas .contenedor-carousel .carousel .pelicula.hover {
